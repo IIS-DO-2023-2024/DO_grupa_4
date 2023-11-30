@@ -3,6 +3,7 @@ package adapter;
 public class TestAdapter {
 
 	public static void main(String[] args) {
+		
 		/* Čvrsta veza sa TestAdapter i svakom klasom, što nije dobra praksa
 		 * 
 		Car car = new Car();
@@ -20,7 +21,6 @@ public class TestAdapter {
 		car.goFaster();
 		plane.goFaster();
 		train.goFaster();
-		boat.rowFaster();
 		boatAdapter.goFaster();
 
 	}

@@ -1,6 +1,7 @@
 package command;
 
 import mvc.Line;
+import prototype.LineDeep;
 
 public class UpdateLineCmd implements Command {
 	private Line line;
@@ -33,7 +34,7 @@ public class UpdateLineCmd implements Command {
 		line.getEndPoint().setX(newState.getEndPoint().getX());
 		line.getEndPoint().setY(newState.getEndPoint().getY());
 		line.setColor(newState.getColor());
-		
+	
 	}
 
 	@Override
